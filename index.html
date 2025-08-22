@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemadharshini K. - Tech Innovator & Problem Solver</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" xintegrity="sha512-iecdLpQp2XQ12rP4gL8yR1P14gLp4o34p62R4j62rF1aX32fTq32X8oV3w3l7fPqf5a6D5R5G5E5cR5u5U5" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>   :root {
+            --dark-charcoal: #1A1A1A;
+            --soft-white: #F5F5F5;
+            --accent-blue: #00BFFF; 
+        }
+        body {
+            background-color: var(--dark-charcoal);
+            color: var(--soft-white);
+            font-family: 'Poppins', sans-serif;
+        }
+     
+        .text-accent-blue {
+            color: var(--accent-blue);
+        }
+        .bg-accent-blue {
+            background-color: var(--accent-blue);
+        }
+        .border-accent-blue {
+            border-color: var(--accent-blue);
+        }
+ 
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 191, 255, 0.3), 0 4px 6px -2px rgba(0, 191, 255, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+       
+        .btn {
+            background-color: transparent;
+            border: 2px solid var(--accent-blue);
+            color: var(--soft-white);
+            padding: 12px 24px;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background-color: var(--accent-blue);
+            color: var(--dark-charcoal);
+            box-shadow: 0 5px 15px rgba(0, 191, 255, 0.4);
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #2A2A2A;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent-blue);
+            border-radius: 4px;
+        }
+     
+        .icon-small {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+            display: inline-block;
+        }
+      
+        .text-python-brand { color: #FFD43B; }
+        .text-c-brand { color: #555555; }
+        .text-java-brand { color: #F8981D; }
+        .text-html-brand { color: #E34F26; }
+        .text-css-brand { color: #1572B6; }
+        .text-js-brand { color: #F7DF1E; }
+        .text-react-brand { color: #61DAFB; }
+        .text-node-brand { color: #339933; }
+        .text-mongodb-brand { color: #47A248; }
+        .text-mysql-brand { color: #4479A1; }
+        .text-postgresql-brand { color: #336791; }
+        .text-git-brand { color: #F05032; }
+        .text-github-brand { color: #181717; }
+        .text-vscode-brand { color: #007ACC; }
+        .text-uipath-brand { color: #6633FF; }
+
+  
+        .navbar a {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        .navbar a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px; 
+            left: 50%; 
+            width: 0;
+            height: 2px;
+            background-color: var(--accent-blue);
+            transition: all 0.3s ease;
+            transform: translateX(-50%); 
+        }
+        .navbar a.active {
+            color: var(--accent-blue);
+        }
+        .navbar a.active::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="sticky top-0 z-50 bg-dark-charcoal bg-opacity-90 backdrop-blur-sm shadow-lg py-4 px-4 sm:px-6 lg:px-8 text-center">
+        <nav class="container mx-auto flex justify-between items-center navbar">
+            <h1 class="text-2xl font-bold tracking-tight text-accent-blue">H.K</h1>
+            <ul class="flex space-x-4 sm:space-x-6 text-sm sm:text-base font-medium">
+                <!-- 'active' class added to the Home link initially -->
+                <li><a href="#home" class="hover:text-accent-blue transition-colors active">Home</a></li>
+                <li><a href="#about" class="hover:text-accent-blue transition-colors">About</a></li>
+                <li><a href="#skills" class="hover:text-accent-blue transition-colors">Skills</a></li>
+                <li><a href="#projects" class="hover:text-accent-blue transition-colors">Projects</a></li>
+                <li><a href="#certifications" class="hover:text-accent-blue transition-colors">Certifications</a></li>
+                <li><a href="#profiles" class="hover:text-accent-blue transition-colors">Profiles</a></li>
+                <li><a href="#contact" class="hover:text-accent-blue transition-colors">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+               <section id="home" class="min-h-screen flex items-center justify-center text-center">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center mt-8">
+               
+                <div class="space-y-6 text-left md:col-span-2">
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-2">
+                        Hemadharshini K
+                    </h1>
+                    <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-400">
+                        Aspiring Tech Innovator & Problem Solver
+                    </h2>
+                    <p class="text-lg md:text-xl font-light italic text-gray-400 mt-4 leading-relaxed">
+                        ❝ Not just aiming to be better — aiming to bring better wherever I go. ❞
+                    </p>
+                </div>
+                <div class="relative rounded-full aspect-square overflow-hidden shadow-lg mx-auto md:mx-0 md:col-span-1">
+                 
+                    <img src="Screenshot 2025-08-22 215339.png" alt="Professional headshot placeholder" class="w-full h-full object-cover"/>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-semibold border-b-2 border-accent-blue pb-2 inline-block">About Me</h2>
+            <div class="mt-8">
+                <p class="text-gray-300 leading-relaxed text-lg md:text-xl">
+                    Hello, I am Hemadharshini K. I believe technology has the power to reshape our world, and I'm here to build the tools that make it happen. 
+                    As a third-year IT student at PSNA College of Engineering and Technology, I'm not just learning to code — I'm learning to innovate.
+                    <br><br>
+                    My passion lies in bridging the gap between complex functionality and seamless user experience, creating intuitive and beautiful interfaces that are as powerful as the code that drives them. 
+                    I'm always seeking the next challenge to turn a vision into a tangible reality.
+                    <br><br>
+                    Beyond academics, I enjoy exploring emerging technologies, building real-world projects, and participating in hackathons and competitions that fuel my curiosity. 
+                    I believe growth happens when you step out of your comfort zone, and I’m constantly striving to push boundaries, learn, and contribute to meaningful innovations.
+                </p>
+            </div>
+        </section>
+
+    
+        <section id="skills" class="mb-16">
+            <h2 class="text-3xl font-semibold border-b-2 border-accent-blue pb-2 inline-block">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+                
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <h3 class="text-xl font-bold text-accent-blue">Languages</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><i class="fab fa-python mr-2 text-xl text-python-brand"></i> Python</li>
+                        <li><i class="fas fa-code mr-2 text-xl text-c-brand"></i> C</li>
+                        <li><i class="fab fa-java mr-2 text-xl text-java-brand"></i> Java</li>
+                    </ul>
+                </div>
+              
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <h3 class="text-xl font-bold text-accent-blue">Frontend</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><i class="fab fa-html5 mr-2 text-xl text-html-brand"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt mr-2 text-xl text-css-brand"></i> CSS3</li>
+                        <li><i class="fab fa-js-square mr-2 text-xl text-js-brand"></i> JavaScript</li>
+                        <li><i class="fab fa-react mr-2 text-xl text-react-brand"></i> React</li>
+                    </ul>
+                </div>
+           
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <h3 class="text-xl font-bold text-accent-blue">Backend & Database</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><i class="fas fa-server mr-2 text-xl text-node-brand"></i> Node.js</li>
+                        <li><i class="fas fa-database mr-2 text-xl text-mongodb-brand"></i> MongoDB</li>
+                        <li><i class="fas fa-database mr-2 text-xl text-mysql-brand"></i> MySQL</li>
+                        <li><i class="fas fa-database mr-2 text-xl text-postgresql-brand"></i> PostgreSQL</li>
+                    </ul>
+                </div>
+                  
+                    <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                        <h3 class="text-xl font-bold text-accent-blue">Tools</h3>
+                        <ul class="space-y-2 text-gray-300">
+                            <li><i class="fab fa-git-alt mr-2 text-xl text-git-brand"></i> Git</li>
+                            <li><i class="fab fa-github mr-2 text-xl text-github-brand"></i> GitHub</li>
+                            <li><i class="fas fa-terminal mr-2 text-xl text-vscode-brand"></i> VS Code</li>
+                            <li><i class="fas fa-robot mr-2 text-xl text-uipath-brand"></i> UiPath</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <section id="projects" class="mb-16">
+            <h2 class="text-3xl font-semibold border-b-2 border-accent-blue pb-2 inline-block">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+             
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/C5Xd8BZ3/Screenshot-2025-08-21-192841.png" alt="Project Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">Calculator</h3>
+                    <p class="text-gray-400">A web-based calculator with basic arithmetic functionality.</p>
+                </div>
+          
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMLuLS7ttT2v70-v4lbAmZm9KxOUgR9tepAQ&s" alt="Screenshot-2025-08-21-195029" alt="Project Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">Image Gallery</h3>
+                    <p class="text-gray-400">A simple image gallery to display a collection of photos with a clean UI.</p>
+                </div>
+              
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/Df0m7cJW/Screenshot-2025-08-21-193443.png" alt="Project Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">Music Player</h3>
+                    <p class="text-gray-400">A basic music player application to play local audio files.</p>
+                </div>
+              
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/twmF974J/Screenshot-2025-08-21-194518.png" alt="Project Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">LinkSwift</h3>
+                    <p class="text-gray-400">A URL shortening service built with modern web technologies.</p>
+                </div>
+              
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/zVrN47yB/Screenshot-2025-08-21-213939.png" alt="Project Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">AgriGenius</h3>
+                    <p class="text-gray-400">An agricultural application to provide data and insights for farmers.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="certifications" class="mb-16">
+            <h2 class="text-3xl font-semibold border-b-2 border-accent-blue pb-2 inline-block">Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+              
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/HLYgRQ2C/aws-ai.jpg" alt="AWS Certification Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">AWS Training and Certification</h3>
+                    <p class="text-gray-400">Fundamentals of Machine Learning and AI</p>
+                </div>
+               
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/VcN31W1R/ui-path.jpg" alt="UiPath Certification Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">UiPath</h3>
+                    <p class="text-gray-400">Associate Student Developer Program</p>
+                </div>
+               
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/xqRHjfVf/python.jpg" alt="IBM Certification Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">Cognitive Class IBM</h3>
+                    <p class="text-gray-400">Python for Data Science</p>
+                </div>
+              
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/PGcRbjC5/upgrad.jpg" alt="Upgrad Certification Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">Upgrad</h3>
+                    <p class="text-gray-400">Fundamentals of Cyber Security</p>
+                </div>
+               
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/1JPjMDCj/python-from-hackerank.jpg" alt="HackerRank Certification Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">HackerRank</h3>
+                    <p class="text-gray-400">Python Certification</p>
+                </div>
+                
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4">
+                    <img src="https://i.ibb.co/GfgH1ZwP/mongodb-basics-for-students.jpg" alt="MongoDB Certification Placeholder" class="w-full h-auto rounded-md object-cover"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">MongoDB University</h3>
+                    <p class="text-gray-400">MongoDB Basics for Students</p>
+                </div>
+            </div>
+        </section>
+
+   
+        <section id="profiles" class="mb-16">
+            <h2 class="text-3xl font-semibold border-b-2 border-accent-blue pb-2 inline-block">Profiles & Achievements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+            
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4 text-center">
+                    <img src="https://i.ibb.co/Z93VYC3/Screenshot-2025-08-21-124333.png" alt="LeetCode Badge Placeholder" class="w-full h-auto rounded-md object-cover mx-auto"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">LeetCode</h3>
+                    <p class="text-gray-400">Completed the LeetCode 75 Challenge and earned a badge.</p>
+                    <a href="https://leetcode.com/u/HEMADHARSHINI_K/" class="btn mt-4 inline-block">View Profile</a>
+                </div>
+       
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4 text-center">
+                    <img src="https://i.ibb.co/d0mm2W5R/hackerrank-badge.jpg" alt="HackerRank Stars Placeholder" class="w-full h-auto rounded-md object-cover mx-auto"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">HackerRank</h3>
+                    <p class="text-gray-400">Achieved 4-star, 3-star, and 1-star ratings in 3 different languages.</p>
+                    <a href="https://www.hackerrank.com/profile/hemadharshini837" class="btn mt-4 inline-block">View Profile</a>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="academic-achievements" class="mb-16">
+            <h2 class="text-3xl font-semibold border-b-2 border-accent-blue pb-2 inline-block">Academic Achievements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+             
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4 text-center">
+                    <img src="https://i.ibb.co/V0f4CRDs/academic.jpg" alt="Medal and Certificate Placeholder" class="w-full h-auto rounded-md object-cover mx-auto"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">Academic Excellence Award</h3>
+                    <p class="text-gray-400">Awarded a medal and certificate for highest academic excellence.</p>
+                </div>
+                <div class="bg-gray-800 card p-6 rounded-lg shadow-md space-y-4 text-center">
+                    <img src="https://i.ibb.co/8nxdyTr2/3rd-certfic.jpg" alt="Shield Placeholder" class="w-full h-auto rounded-md object-cover mx-auto"/>
+                    <h3 class="text-2xl font-semibold text-accent-blue">Elocution Contest</h3>
+                    <p class="text-gray-400">Awarded a shield for securing the 3rd prize in a competition.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="min-h-screen flex items-center justify-center text-center">
+            <div class="max-w-4xl mx-auto py-16">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-2">Get In Touch</h2>
+                <p class="mt-4 text-lg md:text-xl font-light text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                    I'm always open to new collaborations and opportunities. Feel free to connect with me on these platforms to see more of my work and stay in touch.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-6 mt-8">
+                    <a href="https://github.com/hemadharshini-k" class="btn flex items-center justify-center space-x-2 text-soft-white hover:bg-accent-blue hover:text-dark-charcoal border-accent-blue">
+                        <i class="fab fa-github fa-lg"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hemadharshini-k-712211301/" class="btn flex items-center justify-center space-x-2 text-soft-white hover:bg-accent-blue hover:text-dark-charcoal border-accent-blue">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="text-center py-6 border-t border-gray-700 mt-8">
+        <p class="text-gray-500 text-sm">&copy; 2025 Hemadharshini K. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+           
+            const navLinks = document.querySelectorAll('header nav ul li a');
+            const sections = document.querySelectorAll('main section');
+
+           
+            const removeActiveClasses = () => {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                });
+            };
+
+          
+            const addActiveClass = (id) => {
+                const activeLink = document.querySelector(`header nav ul li a[href="#${id}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+            };
+            
+            
+            window.addEventListener('scroll', () => {
+                let currentSectionId = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    if (window.scrollY >= sectionTop - 150) {
+                        currentSectionId = section.getAttribute('id');
+                    }
+                });
+
+                removeActiveClasses();
+if (currentSectionId) {
+                    addActiveClass(currentSectionId);
+                }
+            });
+
+                      navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    removeActiveClasses();
+                    this.classList.add('active');
+
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
